@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: helvetica;
+}
+
+a {
+  color: light blue;
+}
+
+header {
+  padding: 10px;
+  background: darkblue ;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  width: 200px;
+  height: 100%;
+  float: left; /* don't modify */
+  background-color: lightblue;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+section {
+  width: 500px;
+  float: left; /* don't modify */
+  padding: 5px;
+}
+
+footer {
+  clear: left; /* don't modify */
+  padding: 10px;
+  background: #3374FF;
+  text-align: center;
+}
